@@ -1,6 +1,8 @@
+"use client"
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import Marquee from '@/components/ui/marquee';
+import Typewrite from '../helper/Typewrite'
 
 const skillsData = [
   {
@@ -44,7 +46,9 @@ const SkillsSection = () => {
     <div id="skills" className="">
       {/* Skills section */}
        <div className="p-12">
-      <h1 className="text-4xl font-bold mb-6">CODING MY WAY THROUGH: SKILLS</h1>
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">CODING MY WAY THROUGH: <span className="text-contrast">
+              <Typewrite
+              examples={["SKILLS"]}/></span></h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {skillsData.map((category) => (
           <Card key={category.category} className="rounded-2xl">

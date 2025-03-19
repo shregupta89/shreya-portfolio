@@ -1,3 +1,5 @@
+'use client'
+import Typewrite from '../helper/Typewrite'
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -30,22 +32,41 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <div  id="projects"className="p-6">
-      <h1 className="text-4xl font-bold mb-6">IDEAS TURNED TO REALITY: PROJECTS</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div id="projects" className="p-4 sm:p-6 md:p-10  sm:px-6 lg:px-12 ">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-center md:text-left">
+        IDEAS TURNED TO REALITY: 
+        <span className="text-contrast">
+              <Typewrite
+              examples={["PROJECTS","PROJECTS","PROJECTS"]}/></span>
+      </h1>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
         {projectsData.map((project) => (
-          <Card key={project.name} className="rounded-2xl">
-            <CardContent className="p-4">
-              <img src={project.image} alt={project.name} className="w-full h-32 object-cover mb-4 rounded-xl" />
-              <div className="flex justify-between items-center mb-2">
-                <h2 className="text-xl font-bold">{project.name}</h2>
-                <div className="flex gap-2">
+          <Card key={project.name} className="rounded-2xl shadow-lg h-full">
+            <CardContent className="p-4 flex flex-col h-full">
+              <img
+                src={project.image}
+                alt={project.name}
+                className="w-full h-32 sm:h-40 object-contain mb-4 rounded-xl"
+              />
+
+              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-3 gap-2">
+                <h2 className="text-lg sm:text-xl font-semibold">{project.name}</h2>
+                <div className="flex flex-wrap gap-2">
                   {project.skills.map((skill) => (
-                    <span key={skill} className="text-sm bg-gray-200 px-2 py-1 rounded-md">{skill}</span>
+                    <span
+                      key={skill}
+                      className="text-xs sm:text-sm bg-gray-200 px-2 py-1 rounded-md"
+                    >
+                      {skill}
+                    </span>
                   ))}
                 </div>
               </div>
-              <p>{project.description}</p>
+
+              <p className="text-sm sm:text-base text-gray-700">
+                {project.description}
+              </p>
             </CardContent>
           </Card>
         ))}
