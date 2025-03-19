@@ -82,10 +82,12 @@ const Typewrite = ({ examples }: { examples: string[] }) => {
                 {isVisible && (
                   <motion.span
                     initial={{ opacity: 1 }}
-                    animate={{ opacity: 0 }}
+                    animate={{ opacity: 0, }}
+                    
                     transition={{
                       duration: BOX_FADE_DURATION,
                       ease: "easeInOut",
+                      repeatCount:Infinity
                     }}
                     className="absolute bottom-[3px] left-[1px] right-0 top-[3px] bg-neutral-950"
                   />

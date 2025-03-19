@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Button } from '@/components/ui/button';
-import { socialMediaIcons } from '../data/socialMediaIcons.js';
+import { socialMediaIcons } from '../data/arrayData.js';
 import { ChevronUp } from "lucide-react";
 
 const Footer: React.FC = () => {
