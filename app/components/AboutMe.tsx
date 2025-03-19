@@ -79,8 +79,8 @@ const AboutMe = () => {
             <Typewrite
               examples={[
                 "SHREYA\nGUPTA",
-                "MERN STACK DEVELOPER",
-                "BLOCKCHAIN DEVELOPER"
+                "FULL STACK DEVELOPER",
+                "BLOCKCHAIN ENTHUSIAST"
               ]}
             />
           </h1>
@@ -93,7 +93,12 @@ const AboutMe = () => {
               variant="default"
               size="default"
               className="w-32 h-10 text-sm sm:w-40 sm:h-12 sm:text-base"
-              onClick={() => (window.location.href = "mailto:shregupta89@gmail.com")}
+              onClick={() =>
+                window.open(
+                  "https://mail.google.com/mail/?view=cm&fs=1&to=shregupta89@gmail.com",
+                  "_blank"
+                )
+              }
             >
               Contact Me
             </Button>
@@ -118,16 +123,16 @@ const AboutMe = () => {
 
       {/* Bottom Section - About Me Description */}
       <div className="text-left border-t-2 border-b-2 border-border w-full bg-white">
-        <div className='px-4 sm:px-6 lg:px-12 py-12'>
+        <div className='px-4 sm:px-6 lg:px-12 py-4'>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">WHAT 
             <span className="text-contrast">
               <Typewrite
-                examples={["ABOUT ME ?"]}
+                examples={["ABOUT ME ?","ABOUT ME ?","ABOUT ME ?"]}
               />
             </span>
           </h2>
           <p className="text-base sm:text-lg">
-            A pre-final year student at Indira Gandhi Delhi Technical University for Women. I love to participate in hackathons.
+          I am a pre-final year student at Indira Gandhi Delhi Technical University for Women, passionate about exploring Web3 and Machine Learning. I actively participate in hackathons to hone my skills and expand my knowledge through hands-on projects. Continuously striving to improve, I am dedicated to personal and professional growth.
           </p>
         </div>
       </div>
@@ -135,11 +140,11 @@ const AboutMe = () => {
   );
 };
 
-import Image from 'next/image';
+
 
 const ProfileComponent = () => {
   return (
-    <Card className="relative w-72 sm:w-80 h-[350px] sm:h-[400px] bg-main shadow-lg">
+    <Card className="relative w-72 sm:w-80 h-[350px] sm:h-[420px] bg-main shadow-lg">
       <CardContent>
         {/* Top Browser Dots */}
         <div className="absolute top-2 left-2 flex space-x-2">

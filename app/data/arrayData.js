@@ -46,43 +46,50 @@ export const projectsData = [
     {
       name: 'XSampatti',
       skills: ['React', 'Node.js', 'MongoDB'],
-      description: 'A platform empowering farmers with AI-driven crop insights.',
-      image: 'https://cdn-icons-png.flaticon.com/512/1704/1704342.png',
-      githubLink: 'https://github.com/yourusername/thriveagro',
+      description: 'A smart expense tracker that helps you manage your finances effortlessly. Visualize your spending with interactive graphs, track expenses in real time, and gain insights to improve your budgeting.',
+      image: './XSampatti.jpeg',
+      githubLink: 'https://github.com/shregupta89/XSampatti',
       liveLink: 'https://thriveagro.vercel.app'
     },
     {
       name: 'MannNirvana',
-      skills: ['Next.js', 'Tailwind', 'AI'],
-      description: 'An AI-powered recipe discovery tool.',
-      image: 'https://cdn-icons-png.flaticon.com/512/1046/1046856.png',
-      githubLink: 'https://github.com/yourusername/dishcovery',
+      skills: ['Aptos','React', 'Node.js', 'ML'],
+      description: 'Breaking Barriers, Building Bridges: Making Mental Health Care Accessible, Stigma-Free, and Compassionate for All by building judge free community space.',
+      image: './MannNirvana.png',
+      githubLink: 'https://github.com/DeveloperAyushKumar/MannNirvana',
       liveLink: 'https://dishcovery.vercel.app'
     },
     {
       name: 'ReVal',
-      skills: ['TypeScript', 'Express', 'PostgreSQL'],
+      skills: ['Solidity','Nextjs', 'Node.js', 'MongoDB'],
       description: 'A smart expense management application.',
-      image: 'https://cdn-icons-png.flaticon.com/512/2169/2169769.png',
-      githubLink: 'https://github.com/yourusername/xpense',
+      image: './Reval.png',
+      githubLink: 'https://github.com/Niketiiitd/Reval-Frontend',
       liveLink: null // No live link available
     },
     {
       name: 'Dishcovery',
-      skills: ['Python', 'Flask', 'NLP'],
-      description: 'A mental wellness platform with personalized AI recommendations.',
-      image: 'https://cdn-icons-png.flaticon.com/512/1077/1077063.png',
-      githubLink: 'https://github.com/yourusername/mann-nirvana',
-      liveLink: 'https://mann-nirvana.vercel.app'
+      skills: ['React', 'Express','Node.js', 'MongoDB'],
+      description: 'AI-powered solution for flavor-matched innovations, healthier ingredient substitutions, and personalized meal recommendations.',
+      image: './Dishcovery.png',
+      githubLink: 'https://github.com/KniteenK/Dishcovery_frontend/tree/main',
+      liveLink: ''
     },
     {
       name: 'ThriveAgro',
-      skills: ['Python', 'Flask', 'NLP'],
-      description: 'A mental wellness platform with personalized AI recommendations.',
-      image: 'https://cdn-icons-png.flaticon.com/512/1077/1077063.png',
-      githubLink: 'https://github.com/yourusername/mann-nirvana',
+      skills: ['Typescript', 'NextJS','Tailwind','PostgreSQL'],
+      description: 'Empowering farmers with a comprehensive platform for inventory management, crop trading, and voicing concerns for a thriving agricultural community.',
+      image: './ThriveAgro.png',
+      githubLink: 'https://github.com/shregupta89/ThriveAgro',
       liveLink: 'https://mann-nirvana.vercel.app'
-    }
+    }, {
+      name: 'Profile',
+      skills: ['Nextjs','Framer motion'],
+      description: ' An interactive, animated portfolio built with Framer Motion, featuring projects, skills, experiences, and achievements — all in one smooth scroll!',
+      image: './Profile.png',
+      githubLink: 'https://github.com/shregupta89/shreya-portfolio',
+      liveLink: null // No live link available
+    },
   ];
 
 export const experiences = [
@@ -101,12 +108,29 @@ export const experiences = [
     role: 'President @ Assetmerkle',
     description: 'Leading the Web3 Society of IGDTUW, I actively engaged in cutting-edge Web3 projects, driving community growth in the decentralized ecosystem and  successfully organizing various events across multiple ecosystems.'
   },
+  // {
+  //   year: 'June 2023 - July 2023',
+  //   role: 'Web Development Intern @Anveshan Foundation IGDTUW',
+  //   description: ' Developed ”StayUpdated,” a news website  enabling users to search for news by genre and access the latest updates on their chosen topics.'
+  // }
+];
+export const achievements = [
   {
-    year: 'June 2023 - July 2023',
-    role: 'Web Development Intern @Anveshan Foundation IGDTUW',
-    description: ' Developed ”StayUpdated,” a news website  enabling users to search for news by genre and access the latest updates on their chosen topics.'
+    year: '2024',
+    title: 'Second Runner-Up - Innovate2.0 Hackathon',
+    description: 'Achieved 2nd runner-up position in Innovate2.0 Hackathon at Jaypee Institute of Technology.',
+    link: 'https://drive.google.com/file/d/1lZkV67pnA7cstfaUlIXfaUQW8QNDWrjI/view'
+  },
+  {
+    year: '2024',
+    title: 'Second Position - Fork IT Hackathon at IIITD',
+    description: 'Secured 2nd position in Computational Gastronomy Hackathon at IIITD organized by CoSy Labs, IIITD.',
+    link: 'https://drive.google.com/file/d/169Fyl2iBOh9JN5GrPLCtmwfSsNegQIR9/view'
+  },
+  {
+    year: '2024',
+    title: 'First Prize - Sustainable Development Goals Track',
+    description: 'Won 1st prize in Sustainable Development Goals track at Devcation24  organized by GDSC IGDTUW.' ,
+    link: 'https://drive.google.com/file/d/169Fyl2iBOh9JN5GrPLCtmwfSsNegQIR9/view'
   }
 ];
-
-
-

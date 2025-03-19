@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <footer className="w-full py-6 flex flex-row md:flex-row md:justify-between md:items-center px-6 border-t-2 mt-16 relative">
+    <footer className="w-full py-6 flex flex-row md:flex-row md:justify-between md:items-center px-6 border-t-2 relative">
       <span className="text-gray-600 mb-4 md:mb-0 text-center md:text-left">
         © 2025 Shreya Gupta. All rights reserved.
       </span>

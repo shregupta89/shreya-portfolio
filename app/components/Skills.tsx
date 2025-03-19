@@ -51,7 +51,7 @@ const SkillsSection = () => {
   };
 
   // Helper function to chunk the skills array into groups of 4
-  const chunkSkills = (skills, chunkSize = 4) => {
+  const chunkSkills = (skills: { name: string; logo: string }[], chunkSize = 4) => {
     const chunks = [];
     for (let i = 0; i < skills.length; i += chunkSize) {
       chunks.push(skills.slice(i, i + chunkSize));
@@ -66,11 +66,11 @@ const SkillsSection = () => {
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">
           CODING MY WAY THROUGH: 
           <span className="text-contrast">
-            <Typewrite examples={["SKILLS"]}/>
+            <Typewrite examples={["SKILLS","SKILLS","SKILLS"]}/>
           </span>
         </h1>
         <motion.div 
-          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-3 gap-8 "
           initial="hidden"
           whileInView="visible"
           viewport={{  amount: 0.1 }}
@@ -87,9 +87,9 @@ const SkillsSection = () => {
                   <h2 className="text-xl font-bold mb-2 border-b-2 border-border pb-1">
                     {category.category}
                   </h2>
-                  <div className="grid grid-cols-2 gap-4 mt-4">
+                  <div className="grid grid-cols-2  gap-4 mt-4">
                     {chunkSkills(category.skills).map((chunk, chunkIndex) => (
-                      <div key={chunkIndex} className="space-y-4">
+                      <div key={chunkIndex} className="space-y-4n">
                         {chunk.map((skill) => (
                           <motion.div
                             key={skill.name}
@@ -115,7 +115,7 @@ const SkillsSection = () => {
       {/* marquee section */}
       <div className='mt-8'>
         <Marquee
-          items={["Mern stack developer", "AI/ML Enthusiast", "C++ Programmer", "Web3 Enthusiast"]}
+          items={["Mern stack developer", "C++ Programmer", "Web3 Enthusiast", "AI/ML Developer"]}
           speed={15}
           pauseOnHover={true}
         />

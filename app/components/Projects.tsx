@@ -66,7 +66,7 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.name}
-                  className="w-full h-32 sm:h-40 object-contain mb-4 rounded-xl"
+                  className="w-full h-32 sm:h-40 object-fill mb-4 rounded-xl"
                 />
 
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-3 gap-2">

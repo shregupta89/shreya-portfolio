@@ -6,7 +6,7 @@ import Typewrite from '../helper/Typewrite'
 
 const ContactMe: React.FC = () => {
   return (
-    <section id="contactme" className="w-full flex justify-center py-16">
+    <section id="contactme" className="bg-white border-t-2 border-border w-full flex justify-start py-16">
       <div className="w-full  p-8 ">
         <div>
          
@@ -15,11 +15,17 @@ const ContactMe: React.FC = () => {
               <Typewrite
               examples={["REACH OUT","REACH OUT","REACH OUT"]}/></span>
               BEFORE AI TAKES OVER</h1>
-          <p className="text-gray-600 text-center mb-8">
-            My inbox is always open. Whether you have a question or just want to say hello, I’ll try my best to get back to you! Feel free to mail me about any relevant job updates.
+          <p className="text-gray-600  mb-8">
+          Feel free to hit me up anytime! Whether you’ve got a question, just wanna chat, or are looking to collaborate on a project, I’m here for it. I’ll do my best to get back to you! 
           </p>
           <div className="flex justify-center">
-            <Button className="text-lg">Get in touch</Button>
+            <Button className="text-lg"
+            onClick={() =>
+              window.open(
+                "https://mail.google.com/mail/?view=cm&fs=1&to=shregupta89@gmail.com",
+                "_blank"
+              )
+            }>Get in touch</Button>
           </div>
         </div>
       </div>

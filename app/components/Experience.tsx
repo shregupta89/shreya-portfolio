@@ -85,7 +85,7 @@ const ExperienceSection = () => {
     <div 
       ref={ref}
       id="experience" 
-      className="p-4 sm:p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-start"
+      className="p-4 sm:p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-start bg-white border-t-2 border-b-2 border-border"
     >
       
       {/* Image hidden on mobile (block from md onwards only) */}
@@ -181,7 +181,13 @@ const ExperienceSection = () => {
           transition={{ delay: 0.7, duration: 0.5 }}
         >
           <Button className="mt-6 bg-contrast text-white w-full sm:w-auto">
-            Download CV
+          <a
+    href="https://drive.google.com/file/d/1awLOQULAdCrWsKJXt6A4OqtwL2AlsNje/view?usp=sharing" // Replace with the actual path to your CV file
+    download="Shreya_Gupta_CV.pdf" // The name of the file when downloaded
+  
+  >
+    Resume
+  </a>
           </Button>
         </motion.div>
       </div>
