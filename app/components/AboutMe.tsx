@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { motion } from 'framer-motion';
 import Typewrite from '../helper/Typewrite'
+import Image from 'next/image'
 
 const AboutMe = () => {
   // Animation variants for the container of icons
@@ -164,7 +165,7 @@ const ProfileComponent = () => {
             className="absolute z-10 w-full overflow-hidden"
             style={{ height: 'calc(100% + 100px)', top: '-100px' }}
           >
-            <img
+            <Image
               src="./Subject.png"
               alt="Profile"
               className="object-contain rounded-lg shadow-md w-full h-full"

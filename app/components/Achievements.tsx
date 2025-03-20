@@ -2,9 +2,11 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BadgeCheck, ExternalLink } from 'lucide-react';
+
 import Typewrite from '../helper/Typewrite'
 import { achievements } from '../data/arrayData.js';
+import { ExternalLink } from 'lucide-react';
+import Image from 'next/image'
 
 
 const Achievements = () => {
@@ -26,7 +28,7 @@ const Achievements = () => {
             whileHover={{ scale: 1.05 }}
             className="flex items-start mb-8 ml-8 bg-white border-4 border-black rounded-2xl p-4 shadow-[6px_6px_0px_#000]"
           >
-            <img src="./crown.png" alt="crown" className="w-6 h-6 mr-4" />
+            <Image src="./crown.png" alt="crown" className="w-6 h-6 mr-4" />
             <div className="flex-1">
               <h3 className="text-xl font-bold text-black">{achievement.year} - {achievement.title}</h3>
               <p className="text-black mt-1">{achievement.description}</p>
@@ -39,7 +41,8 @@ const Achievements = () => {
                 className="ml-4 p-2 hover:bg-gray-100 rounded-full transition-colors"
                 aria-label={`Link to ${achievement.title}`}
               >
-                <ExternalLink className="w-5 h-5 text-black" />
+                <ExternalLink
+                className="w-5 h-5 text-black" />
               </a>
             )}
           </motion.div>

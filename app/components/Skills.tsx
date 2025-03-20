@@ -5,6 +5,7 @@ import Marquee from '@/components/ui/marquee';
 import Typewrite from '../helper/Typewrite';
 import { motion } from 'framer-motion';
 import { skillsData } from '../data/arrayData.js';
+import Image from 'next/image'
 
 const SkillsSection = () => {
   // Enhanced animation variants for card transitions
@@ -98,7 +99,7 @@ const SkillsSection = () => {
                             initial="initial"
                             whileHover="hover"
                           >
-                            <img src={skill.logo} alt={skill.name} className="w-8 h-8" />
+                            <Image src={skill.logo} alt={skill.name} className="w-8 h-8" />
                             <span className="text-lg">{skill.name}</span>
                           </motion.div>
                         ))}

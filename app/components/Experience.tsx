@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import Typewrite from '../helper/Typewrite'
 import { motion, AnimatePresence, useInView } from 'framer-motion';
 import { experiences } from '../data/arrayData.js';
+import Image from 'next/image'
 
 const ExperienceSection = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
@@ -147,9 +148,9 @@ const ExperienceSection = () => {
                       whileTap={{ scale: 0.95 }}
                     >
                       {activeIndex === index ? (
-                        <img src="./minus.png" alt="Collapse" className="w-6 h-6" />
+                        <Image src="./minus.png" alt="Collapse" className="w-6 h-6" />
                       ) : (
-                        <img src="./add.png" alt="Expand" className="w-6 h-6" />
+                        <Image src="./add.png" alt="Expand" className="w-6 h-6" />
                       )}
                     </motion.button>
                   </CardContent>

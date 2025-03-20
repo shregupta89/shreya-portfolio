@@ -4,6 +4,7 @@ import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { motion } from 'framer-motion';
 import { projectsData } from '../data/arrayData.js';
+import Image from 'next/image'
 
 
 
@@ -63,7 +64,7 @@ const Projects = () => {
           >
             <Card className="rounded-2xl shadow-lg h-full group relative overflow-hidden transition-all duration-300 hover:shadow-xl">
               <CardContent className="p-4 flex flex-col h-full">
-                <img
+                <Image
                   src={project.image}
                   alt={project.name}
                   className="w-full h-32 sm:h-40 object-fill mb-4 rounded-xl"
