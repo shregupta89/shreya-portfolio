@@ -21,7 +21,9 @@ const Footer: React.FC = () => {
             className="rounded-full"
             variant="reverse"
             size="icon"
-            onClick={() => window.open(item.link, '_blank')}
+            onClick={() =>  {
+              if (typeof window !== 'undefined')
+              window.open(item.link, '_blank')}}
           >
             {item.icon}
           </Button>
@@ -44,17 +46,22 @@ const Footer: React.FC = () => {
             showMenu ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 translate-y-4 pointer-events-none"
           }`}
         >
-          {socialMediaIcons.map((item) => (
-            <Button
-              key={item.id}
-              className="rounded-full w-10 h-10"
-              variant="reverse"
-              size="icon"
-              onClick={() => window.open(item.link, '_blank')}
-            >
-              {item.icon}
-            </Button>
-          ))}
+         {socialMediaIcons.map((item) => (
+  <Button
+    key={item.id}
+    className="rounded-full w-10 h-10"
+    variant="reverse"
+    size="icon"
+    onClick={() => {
+      if (typeof window !== 'undefined') { // Ensuring it's running on the client
+        window.open(item.link, '_blank');
+      }
+    }}
+  >
+    {item.icon}
+  </Button>
+))}
+
         </div>
       </div>
     </footer>

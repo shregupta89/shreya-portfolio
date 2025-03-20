@@ -57,7 +57,7 @@ const AboutMe = () => {
                   className="rounded-full"
                   variant="reverse"
                   size="icon"
-                  onClick={() => window.open(item.link, '_blank')}
+                  onClick={() => {if (typeof window !== 'undefined')window.open(item.link, '_blank')}}
                 >
                   {item.icon}
                 </Button>
@@ -93,11 +93,11 @@ const AboutMe = () => {
               variant="default"
               size="default"
               className="w-32 h-10 text-sm sm:w-40 sm:h-12 sm:text-base"
-              onClick={() =>
-                window.open(
+              onClick={() =>{
+                if (typeof window !== 'undefined')window.open(
                   "https://mail.google.com/mail/?view=cm&fs=1&to=shregupta89@gmail.com",
                   "_blank"
-                )
+                )}
               }
             >
               Contact Me
@@ -108,11 +108,12 @@ const AboutMe = () => {
               variant="neutral"
               size="default"
               className="w-32 h-10 text-sm sm:w-40 sm:h-12 sm:text-base"
-              onClick={() =>
-                window.open(
+              onClick={() =>{
+                
+                if (typeof window !== 'undefined')window.open(
                   "https://drive.google.com/file/d/1awLOQULAdCrWsKJXt6A4OqtwL2AlsNje/view?usp=sharing",
                   "_blank"
-                )
+                )}
               }
             >
               Resume

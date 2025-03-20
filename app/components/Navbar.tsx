@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
-    const handleSmoothScroll = (e) => {
+    const handleSmoothScroll = (e: any) => {
       const href = e.target.getAttribute('href');
       if (href && href.startsWith('#')) {
         e.preventDefault();

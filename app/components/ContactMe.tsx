@@ -20,11 +20,11 @@ const ContactMe: React.FC = () => {
           </p>
           <div className="flex justify-center">
             <Button className="text-lg"
-            onClick={() =>
-              window.open(
+            onClick={() =>{
+              if (typeof window !== 'undefined')window.open(
                 "https://mail.google.com/mail/?view=cm&fs=1&to=shregupta89@gmail.com",
                 "_blank"
-              )
+              )}
             }>Get in touch</Button>
           </div>
         </div>
