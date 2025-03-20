@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono,Epilogue } from "next/font/google";
+import { Epilogue } from "next/font/google";
 import "./globals.css";
 
 const epilogue=Epilogue({
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-      // `${geistSans.variable} ${geistMono.variable} antialiased 
+     
         className={epilogue.className}
       >
         {children}
