@@ -148,9 +148,15 @@ const ExperienceSection = () => {
                       whileTap={{ scale: 0.95 }}
                     >
                       {activeIndex === index ? (
-                        <Image src="./minus.png" alt="Collapse" className="w-6 h-6" />
+                        <Image src="/minus.png" alt="Collapse" className="w-6 h-6"
+                        width={24} // Matches w-6 (6 * 4 = 24px)
+                        height={24}
+                         />
                       ) : (
-                        <Image src="./add.png" alt="Expand" className="w-6 h-6" />
+                        <Image src="/add.png" alt="Expand" className="w-6 h-6"
+                        width={24} // Matches w-6 (6 * 4 = 24px)
+                        height={24}
+                         />
                       )}
                     </motion.button>
                   </CardContent>

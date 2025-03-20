@@ -28,7 +28,9 @@ const Achievements = () => {
             whileHover={{ scale: 1.05 }}
             className="flex items-start mb-8 ml-8 bg-white border-4 border-black rounded-2xl p-4 shadow-[6px_6px_0px_#000]"
           >
-            <Image src="./crown.png" alt="crown" className="w-6 h-6 mr-4" />
+            <Image src="/crown.png" alt="crown" className="w-6 h-6 mr-4"
+             width={300} 
+             height={350}  />
             <div className="flex-1">
               <h3 className="text-xl font-bold text-black">{achievement.year} - {achievement.title}</h3>
               <p className="text-black mt-1">{achievement.description}</p>

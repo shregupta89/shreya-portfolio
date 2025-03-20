@@ -17,16 +17,16 @@ export const skillsData = [
       { name: 'HTML/CSS', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968267.png' },
       { name: 'PostgreSQL', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968342.png' },
       { name: 'MySQL', logo: 'https://cdn-icons-png.flaticon.com/512/1199/1199128.png' },
-      { name: 'MongoDB', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968342.png' }
+      { name: 'MongoDB', logo: 'https://cdn.iconscout.com/icon/free/png-512/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-2945120.png?f=webp&w=512' }
     ]
   },
   {
     category: 'Frameworks',
     skills: [
       { name: 'React.js', logo: 'https://cdn-icons-png.flaticon.com/512/1126/1126012.png' },
-      { name: 'Next.js', logo: 'https://cdn-icons-png.flaticon.com/512/282/282385.png' },
+      { name: 'Next.js', logo: '/nextjs.svg' },
       { name: 'Node.js', logo: 'https://cdn-icons-png.flaticon.com/512/919/919825.png' },
-      { name: 'Express.js', logo: 'https://cdn-icons-png.flaticon.com/512/919/919825.png' },
+      { name: 'Express.js', logo: 'https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000' },
       { name: 'Tailwind', logo: 'https://cdn-icons-png.flaticon.com/512/732/732212.png' }
     ]
   },
@@ -37,7 +37,7 @@ export const skillsData = [
       { name: 'GitHub', logo: 'https://cdn-icons-png.flaticon.com/512/2111/2111432.png' },
       { name: 'Docker', logo: 'https://cdn-icons-png.flaticon.com/512/919/919853.png' },
       { name: 'Postman', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968371.png' },
-      { name: 'Canva', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968567.png' },
+      { name: 'Canva', logo: '/Canva-Symbol.png' },
       { name: 'Figma', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968705.png' }
     ]
   }
@@ -47,7 +47,7 @@ export const projectsData = [
       name: 'XSampatti',
       skills: ['React', 'Node.js', 'MongoDB'],
       description: 'A smart expense tracker that helps you manage your finances effortlessly. Visualize your spending with interactive graphs, track expenses in real time, and gain insights to improve your budgeting.',
-      image: './XSampatti.jpeg',
+      image: '/XSampatti.jpeg',
       githubLink: 'https://github.com/shregupta89/XSampatti',
       liveLink: 'https://thriveagro.vercel.app'
     },
@@ -55,7 +55,7 @@ export const projectsData = [
       name: 'MannNirvana',
       skills: ['Aptos','React', 'Node.js', 'ML'],
       description: 'Breaking Barriers, Building Bridges: Making Mental Health Care Accessible, Stigma-Free, and Compassionate for All by building judge free community space.',
-      image: './MannNirvana.png',
+      image: '/MannNirvana.png',
       githubLink: 'https://github.com/DeveloperAyushKumar/MannNirvana',
       liveLink: 'https://dishcovery.vercel.app'
     },
@@ -63,7 +63,7 @@ export const projectsData = [
       name: 'ReVal',
       skills: ['Solidity','Nextjs', 'Node.js', 'MongoDB'],
       description: 'A smart expense management application.',
-      image: './Reval.png',
+      image: '/Reval.png',
       githubLink: 'https://github.com/Niketiiitd/Reval-Frontend',
       liveLink: null // No live link available
     },
@@ -71,7 +71,7 @@ export const projectsData = [
       name: 'Dishcovery',
       skills: ['React', 'Express','Node.js', 'MongoDB'],
       description: 'AI-powered solution for flavor-matched innovations, healthier ingredient substitutions, and personalized meal recommendations.',
-      image: './Dishcovery.png',
+      image: '/Dishcovery.png',
       githubLink: 'https://github.com/KniteenK/Dishcovery_frontend/tree/main',
       liveLink: ''
     },
@@ -79,14 +79,14 @@ export const projectsData = [
       name: 'ThriveAgro',
       skills: ['Typescript', 'NextJS','Tailwind','PostgreSQL'],
       description: 'Empowering farmers with a comprehensive platform for inventory management, crop trading, and voicing concerns for a thriving agricultural community.',
-      image: './ThriveAgro.png',
+      image: '/ThriveAgro.png',
       githubLink: 'https://github.com/shregupta89/ThriveAgro',
       liveLink: 'https://mann-nirvana.vercel.app'
     }, {
       name: 'Profile',
       skills: ['Nextjs','Framer motion'],
       description: ' An interactive, animated portfolio built with Framer Motion, featuring projects, skills, experiences, and achievements — all in one smooth scroll!',
-      image: './Profile.png',
+      image: '/Profile.png',
       githubLink: 'https://github.com/shregupta89/shreya-portfolio',
       liveLink: null // No live link available
     },

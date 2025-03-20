@@ -90,7 +90,7 @@ const SkillsSection = () => {
                   </h2>
                   <div className="grid grid-cols-2  gap-4 mt-4">
                     {chunkSkills(category.skills).map((chunk, chunkIndex) => (
-                      <div key={chunkIndex} className="space-y-4n">
+                      <div key={chunkIndex} className="space-y-4">
                         {chunk.map((skill) => (
                           <motion.div
                             key={skill.name}
@@ -99,7 +99,10 @@ const SkillsSection = () => {
                             initial="initial"
                             whileHover="hover"
                           >
-                            <Image src={skill.logo} alt={skill.name} className="w-8 h-8" />
+                            <img src={skill.logo} alt={skill.name} className="w-8 h-8"
+                            // width={32} // Matches w-8 (8 * 4 = 32px)
+                            // height={32} 
+                            />
                             <span className="text-lg">{skill.name}</span>
                           </motion.div>
                         ))}

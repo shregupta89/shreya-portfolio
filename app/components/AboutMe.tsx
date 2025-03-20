@@ -166,9 +166,11 @@ const ProfileComponent = () => {
             style={{ height: 'calc(100% + 100px)', top: '-100px' }}
           >
             <Image
-              src="./Subject.png"
+              src="/Subject.png"
               alt="Profile"
               className="object-contain rounded-lg shadow-md w-full h-full"
+              width={300} 
+              height={350} 
             />
           </motion.div>
         </div>
