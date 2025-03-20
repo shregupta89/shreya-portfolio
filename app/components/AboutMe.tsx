@@ -146,7 +146,7 @@ const AboutMe = () => {
 
 const ProfileComponent = () => {
   return (
-    <Card className="relative w-72 sm:w-80 h-[350px] sm:h-[420px] bg-main shadow-lg">
+    <Card className="relative w-72 sm:w-80 h-[370px] sm:h-[420px] bg-main shadow-lg">
       <CardContent>
         {/* Top Browser Dots */}
         <div className="absolute top-2 left-2 flex space-x-2">
