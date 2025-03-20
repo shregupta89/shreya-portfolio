@@ -6,7 +6,7 @@ import { Menu, X } from 'lucide-react';
 import {motion, useScroll} from 'framer-motion'
 
 const Navbar = () => {
-  const tabs = ['AboutMe', 'Skills', 'Projects', 'Experience', 'ContactMe'];
+  const tabs = ['AboutMe', 'Skills', 'Projects', 'Experience', 'Achievements','ContactMe'];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {

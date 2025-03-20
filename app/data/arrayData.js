@@ -88,7 +88,7 @@ export const projectsData = [
       description: ' An interactive, animated portfolio built with Framer Motion, featuring projects, skills, experiences, and achievements — all in one smooth scroll!',
       image: '/Profile.png',
       githubLink: 'https://github.com/shregupta89/shreya-portfolio',
-      liveLink: 'www.shregupta.xyz' // No live link available
+      liveLink: 'https://shregupta.xyz' // No live link available
     },
   ];
 
