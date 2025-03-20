@@ -83,12 +83,12 @@ export const projectsData = [
       githubLink: 'https://github.com/shregupta89/ThriveAgro',
       liveLink: 'https://mann-nirvana.vercel.app'
     }, {
-      name: 'Profile',
+      name: 'Portfolio',
       skills: ['Nextjs','Framer motion'],
       description: ' An interactive, animated portfolio built with Framer Motion, featuring projects, skills, experiences, and achievements — all in one smooth scroll!',
       image: '/Profile.png',
       githubLink: 'https://github.com/shregupta89/shreya-portfolio',
-      liveLink: null // No live link available
+      liveLink: 'www.shregupta.xyz' // No live link available
     },
   ];
 

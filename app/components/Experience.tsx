@@ -86,7 +86,7 @@ const ExperienceSection = () => {
     <div 
       ref={ref}
       id="experience" 
-      className="p-4 sm:p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-start bg-white border-t-2 border-b-2 border-border"
+      className="p-8 sm:p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-start bg-white border-t-2 border-b-2 border-border"
     >
       
       {/* Image hidden on mobile (block from md onwards only) */}

@@ -40,7 +40,7 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" className="p-4 sm:p-6 md:p-10 sm:px-6 lg:px-12">
+    <div id="projects" className="p-8 sm:p-6 md:p-10 sm:px-6 lg:px-12">
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-center md:text-left">
         IDEAS TURNED TO REALITY: 
         <span className="text-contrast">
