@@ -124,8 +124,8 @@ const AboutMe = () => {
       </div>
 
       {/* Bottom Section - About Me Description */}
-      <div className="p-8 text-left border-t-2 border-b-2 border-border w-full bg-white">
-        <div className='px-4 sm:px-6 lg:px-12 py-4'>
+      <div className="p-8 sm:p-6 md:p-10  text-left border-t-2 border-b-2 border-border w-full bg-white">
+        <div className=' py-4'>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">WHAT 
             <span className="text-contrast">
               <Typewrite
