@@ -57,7 +57,7 @@ export const projectsData = [
       description: 'Breaking Barriers, Building Bridges: Making Mental Health Care Accessible, Stigma-Free, and Compassionate for All by building judge free community space.',
       image: '/MannNirvana.png',
       githubLink: 'https://github.com/DeveloperAyushKumar/MannNirvana',
-      liveLink: 'https://mann-nirvana-six.vercel.app/your-dost'
+      liveLink: 'https://mann-nirvana-six.vercel.app/'
     },
     {
       name: 'ReVal',
