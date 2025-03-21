@@ -49,7 +49,7 @@ export const projectsData = [
       description: 'A smart expense tracker that helps you manage your finances effortlessly. Visualize your spending with interactive graphs, track expenses in real time, and gain insights to improve your budgeting.',
       image: '/XSampatti.jpeg',
       githubLink: 'https://github.com/shregupta89/XSampatti',
-      liveLink: 'https://thriveagro.vercel.app'
+      liveLink: 'https://XSampatti.vercel.app'
     },
     {
       name: 'MannNirvana',
@@ -57,12 +57,12 @@ export const projectsData = [
       description: 'Breaking Barriers, Building Bridges: Making Mental Health Care Accessible, Stigma-Free, and Compassionate for All by building judge free community space.',
       image: '/MannNirvana.png',
       githubLink: 'https://github.com/DeveloperAyushKumar/MannNirvana',
-      liveLink: 'https://dishcovery.vercel.app'
+      liveLink: 'https://mann-nirvana-six.vercel.app/your-dost'
     },
     {
       name: 'ReVal',
       skills: ['Solidity','Nextjs', 'Node.js', 'MongoDB'],
-      description: 'A smart expense management application.',
+      description: 'A decentralized circular marketplace on the Eth blockchain for pre-owned goods with an extension that finds similar pre-owned items by scraping products.',
       image: '/Reval.png',
       githubLink: 'https://github.com/Niketiiitd/Reval-Frontend',
       liveLink: null // No live link available
@@ -81,7 +81,7 @@ export const projectsData = [
       description: 'Empowering farmers with a comprehensive platform for inventory management, crop trading, and voicing concerns for a thriving agricultural community.',
       image: '/ThriveAgro.png',
       githubLink: 'https://github.com/shregupta89/ThriveAgro',
-      liveLink: 'https://mann-nirvana.vercel.app'
+      liveLink: 'https://ThriveAgro.vercel.app'
     }, {
       name: 'Portfolio',
       skills: ['Nextjs','Framer motion'],
