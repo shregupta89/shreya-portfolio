@@ -115,17 +115,18 @@ export const experiences = [
   // }
 ];
 export const achievements = [
-  {
-    year: '2024',
-    title: 'Second Runner-Up - Innovate2.0 Hackathon',
-    description: 'Achieved 2nd runner-up position in Innovate2.0 Hackathon at Jaypee Institute of Technology.',
-    link: 'https://drive.google.com/file/d/1lZkV67pnA7cstfaUlIXfaUQW8QNDWrjI/view'
-  },
+ 
   {
     year: '2024',
     title: 'Second Position - Fork IT Hackathon at IIITD',
     description: 'Secured 2nd position in Computational Gastronomy Hackathon at IIITD organized by CoSy Labs, IIITD.',
     link: 'https://drive.google.com/file/d/169Fyl2iBOh9JN5GrPLCtmwfSsNegQIR9/view'
+  },
+  {
+    year: '2024',
+    title: 'Second Runner-Up - Innovate2.0 Hackathon',
+    description: 'Achieved 2nd runner-up position in Innovate2.0 Hackathon at Jaypee Institute of Technology.',
+    link: 'https://drive.google.com/file/d/1lZkV67pnA7cstfaUlIXfaUQW8QNDWrjI/view'
   },
   {
     year: '2024',
