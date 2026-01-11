@@ -86,7 +86,7 @@ const ExperienceSection = () => {
     <div 
       ref={ref}
       id="experience" 
-      className="p-8 sm:p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-start bg-white border-t-2 border-b-2 border-border"
+      className="p-8 sm:p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-start"
     >
       
       {/* Image hidden on mobile (block from md onwards only) */}
@@ -189,7 +189,7 @@ const ExperienceSection = () => {
         >
           <Button className="mt-6 bg-contrast text-white w-full sm:w-auto">
           <a
-    href="https://drive.google.com/file/d/1awLOQULAdCrWsKJXt6A4OqtwL2AlsNje/view?usp=sharing" // Replace with the actual path to your CV file
+    href="https://drive.google.com/file/d/1WiRgcXKXvWm5MYvE0Mjk2cLhm3a4K8vL/view?usp=drive_link" // Replace with the actual path to your CV file
     download="Shreya_Gupta_CV.pdf" // The name of the file when downloaded
   
   >

@@ -81,12 +81,12 @@ const AboutMe = () => {
               examples={[
                 "SHREYA\nGUPTA",
                 "FULL STACK \nDEVELOPER",
-                "BLOCKCHAIN \nENTHUSIAST"
+                "AGENTIC AI \nENTHUSIAST"
               ]}
             />
           </h1>
           <p className="text-base sm:text-lg md:text-xl">
-            I'm an enthusiastic Developer specializing in Mern Stack Web Development. I love solving real-world problems building efficient and AI-driven scalable solutions.
+            I build fast and think quick, creating smart, future-ready products by blending Generative AI, ML, cloud, and modern full-stack technologies to solve real-world problems.
           </p>
           <div className="space-x-4 flex justify-center md:justify-start">
             {/* Contact Me Button */}
@@ -112,7 +112,7 @@ const AboutMe = () => {
               onClick={() =>{
                 
                 if (typeof window !== 'undefined')window.open(
-                  "https://drive.google.com/file/d/1awLOQULAdCrWsKJXt6A4OqtwL2AlsNje/view?usp=sharing",
+                  "https://drive.google.com/file/d/1WiRgcXKXvWm5MYvE0Mjk2cLhm3a4K8vL/view?usp=drive_link",
                   "_blank"
                 )}
               }
@@ -134,7 +134,7 @@ const AboutMe = () => {
             </span>
           </h2>
           <p className="text-base sm:text-lg">
-          I am a pre-final year student at Indira Gandhi Delhi Technical University for Women, passionate about exploring Web3 and Machine Learning. I actively participate in hackathons to hone my skills and expand my knowledge through hands-on projects. Continuously striving to improve, I am dedicated to personal and professional growth.
+          I am a final-year student at Indira Gandhi Delhi Technical University for Women who has explored a wide range of technologies including Generative AI, Machine Learning, Web3, full-stack development, and cloud computing. I have participated in multiple hackathons to build impactful, real-world projects and sharpen my technical skills. I strive for continuous growth through reading, hands-on learning, and keeping up with emerging technologies.
           </p>
         </div>
       </div>

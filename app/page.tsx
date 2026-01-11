@@ -11,15 +11,11 @@ import Achievements from "./components/Achievements";
 export default function Home() {
   return (
     <div className="bg-bg">
-
- 
-
     <Navbar/>
     <AboutMe/>
     <Skills/>
-    <Projects/>
     <Experience/>
-   
+    <Projects/>
     <Achievements/>
     <ContactMe/>
     <Footer/>

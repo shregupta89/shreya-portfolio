@@ -51,8 +51,8 @@ const SkillsSection = () => {
     }
   };
 
-  // Helper function to chunk the skills array into groups of 4
-  const chunkSkills = (skills: { name: string; logo: string }[], chunkSize = 4) => {
+  // Helper function to chunk the skills array into groups of 6
+  const chunkSkills = (skills: { name: string; logo: string }[], chunkSize = 6) => {
     const chunks = [];
     for (let i = 0; i < skills.length; i += chunkSize) {
       chunks.push(skills.slice(i, i + chunkSize));
@@ -119,7 +119,7 @@ const SkillsSection = () => {
       {/* marquee section */}
       <div className='mt-8'>
         <Marquee
-          items={["Mern stack developer", "C++ Programmer", "Web3 Enthusiast", "AI/ML Developer"]}
+          items={["Mern stack","GenAI", "C++ Programmer", "Agentic AI" ,"DevOps"]}
           speed={15}
           pauseOnHover={true}
         />

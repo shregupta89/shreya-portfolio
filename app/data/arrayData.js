@@ -10,35 +10,47 @@ export const skillsData = [
   {
     category: 'Languages and Databases',
     skills: [
-      { name: 'JavaScript', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968292.png' },
-      { name: 'TypeScript', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968381.png' },
+      // Left column (first 6)
       { name: 'C++', logo: 'https://cdn-icons-png.flaticon.com/512/6132/6132222.png' },
+      { name: 'SQL', logo: 'https://cdn-icons-png.flaticon.com/512/4248/4248443.png' },
       { name: 'Python', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968350.png' },
-      { name: 'HTML/CSS', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968267.png' },
-      { name: 'PostgreSQL', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968342.png' },
-      { name: 'MySQL', logo: 'https://cdn-icons-png.flaticon.com/512/1199/1199128.png' },
-      { name: 'MongoDB', logo: 'https://cdn.iconscout.com/icon/free/png-512/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-2945120.png?f=webp&w=512' }
+      { name: 'MySQL', logo: 'https://cdn.iconscout.com/icon/free/png-256/free-mysql-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945040.png' },
+      { name: 'TypeScript', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968381.png' },
+      { name: 'MongoDB', logo: 'https://cdn.iconscout.com/icon/free/png-256/free-mongodb-5-1175140.png' },
+      // Right column (remaining)
+      { name: 'JavaScript', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968292.png' },
+      { name: 'PostgreSQL', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968342.png' }
     ]
   },
   {
-    category: 'Frameworks',
+    category: 'Frameworks & Libraries',
     skills: [
-      { name: 'React.js', logo: 'https://cdn-icons-png.flaticon.com/512/1126/1126012.png' },
-      { name: 'Next.js', logo: '/nextjs.svg' },
-      { name: 'Node.js', logo: 'https://cdn-icons-png.flaticon.com/512/919/919825.png' },
+      // Left column (first 6)
+      { name: 'ReactJS', logo: 'https://cdn-icons-png.flaticon.com/512/1126/1126012.png' },
+      { name: 'NextJS', logo: '/nextjs.svg' },
       { name: 'Express.js', logo: 'https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000' },
-      { name: 'Tailwind', logo: 'https://cdn-icons-png.flaticon.com/512/732/732212.png' }
+      { name: 'FastAPI', logo: '/fastapi.svg' },
+      { name: 'SQLAlchemy', logo: '/sqlalchemy.svg' },
+      { name: 'Django', logo: 'https://cdn-icons-png.flaticon.com/512/9307/9307630.png' },
+      // Right column (remaining)
+      { name: 'LangGraph', logo: '/langgraph.svg' },
+      { name: 'Tailwind', logo: 'https://cdn.iconscout.com/icon/free/png-256/free-tailwind-css-5285308-4406745.png' },
+      { name: 'Pydantic', logo: '/pydantic.svg' },
+      { name: 'ReactNative', logo: 'https://cdn-icons-png.flaticon.com/512/1126/1126012.png' }
     ]
   },
   {
-    category: 'Development Tools',
+    category: 'Tools & Platforms',
     skills: [
-      { name: 'Git', logo: 'https://cdn-icons-png.flaticon.com/512/2111/2111288.png' },
+      // Left column (first 6)
+      { name: 'Git', logo: 'https://cdn-icons-png.flaticon.com/512/4494/4494740.png' },
       { name: 'GitHub', logo: 'https://cdn-icons-png.flaticon.com/512/2111/2111432.png' },
-      { name: 'Docker', logo: 'https://cdn-icons-png.flaticon.com/512/919/919853.png' },
-      { name: 'Postman', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968371.png' },
-      { name: 'Canva', logo: '/Canva-Symbol.png' },
-      { name: 'Figma', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968705.png' }
+      { name: 'Docker', logo: 'https://cdn-icons-png.flaticon.com/512/5969/5969059.png' },
+      { name: 'Google Cloud', logo: '/googleCloud.png' },
+      { name: 'Microsoft Azure', logo: 'https://cdn-icons-png.flaticon.com/512/873/873107.png' },
+      { name: 'Google Colab', logo: '/colab.svg' },
+      // Right column (remaining)
+      { name: 'Kubernetes', logo: '/kubernetes.png' }
     ]
   }
 ];
@@ -94,26 +106,27 @@ export const projectsData = [
 
 export const experiences = [
   {
-    year: 'May 2025 - July 2025',
-    role: ' SWE Intern @ Microsoft',
-    description: 'Upcoming Intern'
+    year: 'Aug 2025 - Present (Remote)',
+    role: 'Software Engineer Intern @ Diversifi',
+    description: 'Engineered scalable data pipelines in Python, integrating PostgreSQL, SQLAlchemy (ORM), and Pydantic for schema and database management, reducing backend latency. Developed and deployed production-grade APIs on GCP using FastAPI and LangChain, powering an AI-driven stock portfolio assistant with 1K+ active users.'
   },
   {
-    year: 'Dec 2024 - Present ',
+    year: 'May 2025 - July 2025 (Hyderabad)',
+    role: 'Software Engineer Intern @ Microsoft',
+    description: 'Built an autonomous agent using LangGraph, FastAPI to analyze daily sync transcripts, match speaker updates to Azure DevOps tasks, and auto-post structured progress summaries—achieving 80% higher accuracy vs. Copilot baseline. Ensured secure enterprise deployment with Prompt Shield, PII filtering and hosted the end-to-end solution on Azure App Service for scalable and compliant delivery.'
+  },
+  {
+    year: 'Dec 2024 - Present (Hybrid)',
     role: 'Research Intern @ CosyLabs IIITD',
     description: 'Contributing to the development of a mobile application focused on health and nutrition, aiming to promote wellness through personalized insights and user-friendly features.'
   },
   {
-    year: 'May 2024 - Present ',
+    year: 'May 2024 - Present (In-Person)',
     role: 'President @ Assetmerkle',
-    description: 'Leading the Web3 Society of IGDTUW, I actively engaged in cutting-edge Web3 projects, driving community growth in the decentralized ecosystem and  successfully organizing various events across multiple ecosystems.'
-  },
-  // {
-  //   year: 'June 2023 - July 2023',
-  //   role: 'Web Development Intern @Anveshan Foundation IGDTUW',
-  //   description: ' Developed ”StayUpdated,” a news website  enabling users to search for news by genre and access the latest updates on their chosen topics.'
-  // }
+    description: 'Leading the Web3 Society of IGDTUW, I actively engaged in cutting-edge Web3 projects, driving community growth in the decentralized ecosystem and successfully organizing various events across multiple ecosystems.'
+  }
 ];
+
 export const achievements = [
  
   {
