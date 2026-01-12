@@ -108,7 +108,7 @@ export const experiences = [
   {
     year: 'Aug 2025 - Present (Remote)',
     role: 'Software Engineer Intern @ Diversifi',
-    description: 'Engineered scalable data pipelines in Python, integrating PostgreSQL, SQLAlchemy (ORM), and Pydantic for schema and database management, reducing backend latency. Developed and deployed production-grade APIs on GCP using FastAPI and LangChain, powering an AI-driven stock portfolio assistant with 1K+ active users.'
+    description: 'Designed multi-agent AI systems using LangGraph and LangChain for intent-driven orchestration and stateful workflows, and built RAG-powered financial assistants with real-time data. Developed scalable Python data pipelines with PostgreSQL, SQLAlchemy, and Pydantic, and deployed production-grade FastAPI services on GCP to support intelligent, multi-step financial queries.'
   },
   {
     year: 'May 2025 - July 2025 (Hyderabad)',
